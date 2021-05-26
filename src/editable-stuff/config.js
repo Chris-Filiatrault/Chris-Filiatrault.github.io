@@ -42,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/2021-green-lower-res.jpg"),
   imageSize: 375,
   message1: "Hi there! My name's Chris.",
-  message2: "I graduated with a Bachelor of Economics from the Australian National University. Statistical courses introduced me to the world of programming, where bit by bit I've enjoyed skilling up and working as a Developer. Outside of work and study, I have a history of skateboarding and cycling at a high level,  successfully manage a condition called Fibromyalgia, speak fluent Japanese and published two iOS apps to the App Store.",
+  message2: "I graduated with a Bachelor of Economics from the Australian National University. Statistical courses introduced me to the world of programming, where bit by bit I've enjoyed skilling up and now working as a Developer. Outside of work and study I enjoy road cycling and mountain biking, successfully manage a condition called Fibromyalgia and speak Japanese.",
   // resume: "https://1drv.ms/b/s!ArD4GThUJSRbmddvtoJ9QmLRG3Z5lw?e=MnhFG9",
 };
 
