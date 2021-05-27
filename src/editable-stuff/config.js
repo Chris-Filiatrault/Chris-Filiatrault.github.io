@@ -136,5 +136,36 @@ const experiences = {
   ]
 }
 
+const projects = {
+  show: true,
+  heading: "Projects",
+  data: [
+    {
+      name: "Personal Website",
+      description: "The source code for this website.",
+      languages: "HTML, CSS, JavaScript, React",
+      link: "https://github.com/Chris-Filiatrault/chris-filiatrault.github.io"
+    },
+    {
+      name: "iShop",
+      description: "A shopping list app for iOS & MacOS.",
+      languages: "Swift",
+      link: "https://github.com/Chris-Filiatrault/iShop"
+    },
+    {
+      name: "Simple List",
+      description: "A single-page iOS list app.",
+      languages: "Swift",
+      link: "https://github.com/Chris-Filiatrault/Simple-List"
+    },
+    {
+      name: "Veritec Coding Assignment",
+      description: "Code from a coding assignment with Veritec.",
+      languages: "C#",
+      link: "https://github.com/Chris-Filiatrault/veritec-coding-assignment"
+    }
+  ]
+}
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, projects };
