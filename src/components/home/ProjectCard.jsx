@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
   
   return (
     <Col md={6}>
-      <Card.Link href={props.link}>
+      <Card.Link href={props.link} target="_blank">
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h4">{props.name} </Card.Title>
