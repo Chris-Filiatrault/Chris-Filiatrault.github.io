@@ -110,6 +110,15 @@ code {
     transition: transform 0.3s, box-shadow 0.3s;
   }
 }
+
+.card-link {
+  color: black;
+  &:hover {
+    color:#333333;
+    text-shadow: #363636;
+  }
+}
+
 .skills-tabs {
   flex-grow: 1;
 }
