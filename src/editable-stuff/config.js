@@ -143,7 +143,7 @@ const projects = {
     {
       name: "Personal Website",
       description: "The source code for this website.",
-      languages: "HTML, CSS, JavaScript, React",
+      languages: "HTML, SCSS, JavaScript, Bootstrap, React",
       link: "https://github.com/Chris-Filiatrault/chris-filiatrault.github.io"
     },
     {
