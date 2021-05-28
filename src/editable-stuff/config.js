@@ -160,7 +160,7 @@ const projects = {
       name: "Veritec Coding Assignment",
       description: "Code from a coding assignment with Veritec.",
       languages: "C#",
-      link: "https://github.com/Chris-Filiatrault/veritec-coding-assignment"
+      link: "https://github.com/Chris-Filiatrault/Coding-Assignment"
     }
   ]
 }
