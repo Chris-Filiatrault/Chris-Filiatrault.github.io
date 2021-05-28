@@ -4,5 +4,5 @@ This repo hosts the source code for [chrisfiliatrault.com](https://chrisfiliatra
 
 With thanks to Hashir Shoaib who made this open source template which is available [here](https://github.com/hashirshoaeb/home).
 
-![Website Image](./src/assets/img/social-image.png)
+![Website Image](./public/social-image.png)
 
