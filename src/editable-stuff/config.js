@@ -157,8 +157,8 @@ const projects = {
       link: "https://github.com/Chris-Filiatrault/Simple-List"
     },
     {
-      name: "Veritec Coding Assignment",
-      description: "Code from a coding assignment with Veritec.",
+      name: "Coding Assignment",
+      description: "Code from a coding assignment.",
       languages: "C#",
       link: "https://github.com/Chris-Filiatrault/Coding-Assignment"
     }
