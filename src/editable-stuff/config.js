@@ -42,7 +42,8 @@ const about = {
   imageLink: null,
   imageSize: 375,
   message1: "Hi there! My name's Chris.",
-  message2: "I graduated with a Bachelor of Economics from the Australian National University. Statistical courses introduced me to the world of programming, where bit by bit I've enjoyed skilling up and now working as a Developer. Outside of work and study I enjoy road cycling and mountain biking, successfully manage a condition called Fibromyalgia and speak Japanese.",
+  message2: "I have a long history of sport, studied Economics, speak Japanese and work as a Software Developer.",
+  message3: "I built this website to learn more about web development and showcase a few of my projects."
   // resume: "https://1drv.ms/b/s!ArD4GThUJSRbmddvtoJ9QmLRG3Z5lw?e=MnhFG9",
 };
 
@@ -152,7 +153,7 @@ const projects = {
     },
     {
       name: "Simple List",
-      description: "A single-page iOS list app.",
+      description: "A single-page iOS wlist app.",
       languages: "Swift",
       link: "https://github.com/Chris-Filiatrault/Simple-List"
     },

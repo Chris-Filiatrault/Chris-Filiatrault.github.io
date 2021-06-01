@@ -75,10 +75,10 @@ code {
   transition: all 0.8s;
   margin: 4px;
   &:hover {
-    color: rgba(2, 101, 182, 0.959);
+    color: rgba(44, 44, 44, 0.959);
     padding-left: 5px;
     padding-right: 5px;
-    transition: all 0.8s;
+    transition: all 0.5s;
     margin: 4px;
   }
 }
