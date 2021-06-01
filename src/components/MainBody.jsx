@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message }, ref) => {
     return (
       <Jumbotron
         fluid
@@ -20,7 +20,8 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: false }}>
+          <Typist className="lead typist" cursor={{ show: true , blink: true}}>
+            <Typist.Delay ms="2000" />
             {message}
           </Typist>
         </Container>
