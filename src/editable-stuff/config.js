@@ -23,7 +23,7 @@ const about = {
   imageLink: null,
   imageSize: 375,
   message1: "Hi there! My name's Chris.",
-  message2: "I have a long history of sport, studied Economics, speak Japanese and work as a Software Developer.",
+  message2: "I have a long history of sport, studied Economics, speak Japanese, work as a Software Developer and successfully manage a condition called Fibromyalgia.",
   message3: "I built this website to learn more about web development and showcase a few of my projects."
 };
 
