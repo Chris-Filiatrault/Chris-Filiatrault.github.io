@@ -1,5 +1,4 @@
 import React from "react";
-import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import {
   mainBody,
   about,
@@ -14,7 +13,7 @@ import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import GetInTouch from "./components/GetInTouch.jsx";
 
-const Home = React.forwardRef((props, ref) => {
+const App = React.forwardRef((props, ref) => {
   return (
     <>
       <MainBody
@@ -58,19 +57,6 @@ const Home = React.forwardRef((props, ref) => {
     </>
   );
 });
-
-
-function App() {
-  return (
-    <div className="container-flex">
-      <Router>
-        <Switch>
-          <Route exact path="/" component= {Home}/>
-        </Switch>
-      </Router>
-    </div>
-  );
-}
 
 
 export default App;
