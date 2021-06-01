@@ -23,27 +23,6 @@ const MainBody = React.forwardRef(
           <Typist className="lead typist" cursor={{ show: false }}>
             {message}
           </Typist>
-          <div className="p-5">
-            {icons.map((icon, index) => (
-              <a
-                key={`social-icon-${index}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i className={`fab ${icon.image}  fa-3x socialicons`} />
-              </a>
-            ))}
-          </div>
-          {/* <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            About
-          </a> */}
         </Container>
       </Jumbotron>
     );

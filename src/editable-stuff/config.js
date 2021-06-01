@@ -114,7 +114,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for Software Developer positions in the Front End or .NET space. To arrange a conversation, please feel free to reach out on "
+    "I'm currently looking for Software Developer positions in .NET or front end. To arrange a conversation, please feel free to reach out on "
 };
 
 const experiences = {
@@ -158,7 +158,7 @@ const projects = {
     },
     {
       name: "Coding Assignment",
-      description: "Code from a coding assignment.",
+      description: "A .NET console application from a coding assignment.",
       languages: "C#",
       link: "https://github.com/Chris-Filiatrault/Coding-Assignment"
     }

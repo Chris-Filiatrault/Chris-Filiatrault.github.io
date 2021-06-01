@@ -28,7 +28,6 @@ const Home = React.forwardRef((props, ref) => {
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
-        icons={mainBody.icons}
         ref={ref}
       />
       {about.show && (
@@ -65,7 +64,9 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-       <Footer>
+       <Footer
+         icons={mainBody.icons}
+       >
          {getInTouch.show && (
           <GetInTouch
             heading={getInTouch.heading}

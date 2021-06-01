@@ -8,7 +8,21 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
-        <p>&#169; Chris Filiatrault 2021</p>
+        <div className="p-5">
+            {props.icons.map((icon, index) => (
+              <a
+                key={`social-icon-${index}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={icon.url}
+                aria-label={`My ${icon.image.split("-")[1]}`}
+              >
+                <i className={`fab ${icon.image}  fa-3x socialicons`} />
+              </a>
+            ))}
+            <p>&#169; Chris Filiatrault {new Date().getFullYear()}</p>
+          </div>
+
       </Container>
     </footer>
   );

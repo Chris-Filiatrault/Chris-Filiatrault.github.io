@@ -69,13 +69,13 @@ code {
   }
 }
 .socialicons {
-  color: white;
+  color: rgb(0, 0, 0);
   padding-left: 5px;
   padding-right: 5px;
   transition: all 0.8s;
   margin: 4px;
   &:hover {
-    color: black;
+    color: rgba(2, 101, 182, 0.959);
     padding-left: 5px;
     padding-right: 5px;
     transition: all 0.8s;
