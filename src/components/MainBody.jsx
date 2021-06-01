@@ -20,7 +20,7 @@ const MainBody = React.forwardRef(
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist className="lead typist" cursor={{ show: true , blink: true}}>
+          <Typist className="lead typist" cursor={{ show: false }}>
             <Typist.Delay ms="2000" />
             {message}
           </Typist>
