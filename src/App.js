@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
 import {
   navBar,
   mainBody,
@@ -17,11 +17,8 @@ import Project from "./components/home/Project";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Skills from "./components/home/Skills";
-// import { Blog } from "./components/blog/Blog";
-// import BlogPost from "./components/blog/BlogPost";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
-
 import Experience from "./components/home/Experience";
 
 const Home = React.forwardRef((props, ref) => {
@@ -68,22 +65,8 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
-    </>
-  );
-});
-
-const App = () => {
-  const titleRef = React.useRef();
-
-  return (
-    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Route path="/" exact component={() => <Home ref={titleRef} />} />
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
-      <Footer>
-        {getInTouch.show && (
+       <Footer>
+         {getInTouch.show && (
           <GetInTouch
             heading={getInTouch.heading}
             message={getInTouch.message}
@@ -91,8 +74,22 @@ const App = () => {
           />
         )}
       </Footer>
-    </BrowserRouter>
+    </>
   );
-};
+});
+
+
+function App() {
+  return (
+    <div className="container-flex">
+      <Router>
+        <Switch>
+          <Route exact path="/" component= {Home}/>
+        </Switch>
+      </Router>
+    </div>
+  );
+}
+
 
 export default App;
