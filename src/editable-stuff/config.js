@@ -79,7 +79,7 @@ const projects = {
     },
     {
       name: "Simple List",
-      description: "A single-page iOS wlist app.",
+      description: "A single-page iOS list app.",
       languages: "Swift",
       link: "https://github.com/Chris-Filiatrault/Simple-List"
     },
