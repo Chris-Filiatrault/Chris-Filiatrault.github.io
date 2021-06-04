@@ -55,7 +55,7 @@ const skills = {
 
 
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
     "I'm currently looking for Software Developer positions in .NET or front end. To arrange a conversation, please feel free to reach out on "
