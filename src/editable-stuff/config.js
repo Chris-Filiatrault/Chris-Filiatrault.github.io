@@ -84,10 +84,10 @@ const projects = {
       link: "https://github.com/Chris-Filiatrault/Simple-List"
     },
     {
-      name: "Tax Calculator",
-      description: "A .NET console application with input, calculations and output.",
+      name: "CSharpBasics",
+      description: "Code from a C# tutorial.",
       languages: "C#",
-      link: "https://github.com/Chris-Filiatrault/Coding-Assignment"
+      link: "https://github.com/Chris-Filiatrault/CSharpBasics"
     }
   ]
 }
