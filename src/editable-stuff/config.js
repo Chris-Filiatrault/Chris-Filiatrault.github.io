@@ -84,8 +84,8 @@ const projects = {
       link: "https://github.com/Chris-Filiatrault/Simple-List"
     },
     {
-      name: "CSharpBasics",
-      description: "Code from a C# tutorial.",
+      name: "Tax Calculator",
+      description: "A .NET Razor Pages web application for calculating Tax.",
       languages: "C#",
       link: "https://github.com/Chris-Filiatrault/CSharpBasics"
     }
