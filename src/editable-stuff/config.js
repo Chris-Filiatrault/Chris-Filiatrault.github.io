@@ -87,7 +87,7 @@ const projects = {
       name: "Tax Calculator",
       description: "A .NET Razor Pages web application for calculating Tax.",
       languages: "C#",
-      link: "https://github.com/Chris-Filiatrault/CSharpBasics"
+      link: "https://github.com/Chris-Filiatrault/TaxCalculator/tree/TaxCalculatorUI"
     }
   ]
 }
