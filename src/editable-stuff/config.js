@@ -1,6 +1,6 @@
 
 const mainBody = {
-  gradientColors: "#1b767c, #1b767c",
+  backgroundColor: "#1b767c",
   firstName: "Chris",
   middleName: "",
   lastName: "Filiatrault",
