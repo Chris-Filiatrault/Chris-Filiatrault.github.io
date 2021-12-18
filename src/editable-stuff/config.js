@@ -32,14 +32,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: ".NET", value: 90 },
     { name: "HTML/CSS/JS", value: 85 },
     { name: "React", value: 70 },
-    { name: "Source Control", value: 80 },
     { name: "iOS Development", value: 90 },
+    { name: "Source Control", value: 80 },
     { name: "OOP (Python, C#)", value: 70 },
     { name: "MarkLogic (NoSQL)", value: 75 },
     { name: "Statistics/Data Analysis", value: 80 },
-    { name: "Japanese", value: 90 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 85 },
