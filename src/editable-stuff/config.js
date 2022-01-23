@@ -7,12 +7,16 @@ const mainBody = {
   message: "Software Developer",
   icons: [
     {
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/chris-filiatrault/",
+    },
+    {
       image: "fa-github",
       url: "https://github.com/Chris-Filiatrault",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/chris-filiatrault/",
+      image: "fa-medium",
+      url: "https://medium.com/@chris.filiatrault",
     }
   ],
 };
@@ -66,6 +70,12 @@ const projects = {
   heading: "Projects",
   data: [
     {
+      name: "Tax Calculator",
+      description: "A .NET application with a UI and API for calculating Tax.",
+      languages: "C#",
+      link: "https://github.com/Chris-Filiatrault/TaxCalculator"
+    },
+    {
       name: "Personal Website",
       description: "The source code for this website.",
       languages: "HTML, SCSS, JavaScript, Bootstrap, React",
@@ -82,12 +92,6 @@ const projects = {
       description: "A single-page iOS list app.",
       languages: "Swift",
       link: "https://github.com/Chris-Filiatrault/Simple-List"
-    },
-    {
-      name: "Tax Calculator",
-      description: "A .NET Razor Pages web application for calculating Tax.",
-      languages: "C#",
-      link: "https://github.com/Chris-Filiatrault/TaxCalculator/tree/TaxCalculatorUI"
     }
   ]
 }
