@@ -1,0 +1,513 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData @testing-library/jest-dom
+20 silly mapToRegistry name @testing-library/jest-dom
+21 silly mapToRegistry scope (from package name) @testing-library
+22 verbose mapToRegistry no registry URL found in name for scope @testing-library
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: '@testing-library/jest-dom',
+25 silly mapToRegistry   scope: '@testing-library',
+25 silly mapToRegistry   escapedName: '@testing-library%2fjest-dom',
+25 silly mapToRegistry   name: '@testing-library/jest-dom',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/@testing-library%2fjest-dom
+27 silly fetchNamedPackageData @testing-library/react
+28 silly mapToRegistry name @testing-library/react
+29 silly mapToRegistry scope (from package name) @testing-library
+30 verbose mapToRegistry no registry URL found in name for scope @testing-library
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: '@testing-library/react',
+33 silly mapToRegistry   scope: '@testing-library',
+33 silly mapToRegistry   escapedName: '@testing-library%2freact',
+33 silly mapToRegistry   name: '@testing-library/react',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/@testing-library%2freact
+35 silly fetchNamedPackageData @testing-library/user-event
+36 silly mapToRegistry name @testing-library/user-event
+37 silly mapToRegistry scope (from package name) @testing-library
+38 verbose mapToRegistry no registry URL found in name for scope @testing-library
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: '@testing-library/user-event',
+41 silly mapToRegistry   scope: '@testing-library',
+41 silly mapToRegistry   escapedName: '@testing-library%2fuser-event',
+41 silly mapToRegistry   name: '@testing-library/user-event',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/@testing-library%2fuser-event
+43 silly fetchNamedPackageData bootstrap
+44 silly mapToRegistry name bootstrap
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'bootstrap',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'bootstrap',
+47 silly mapToRegistry   name: 'bootstrap',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+49 silly fetchNamedPackageData loader-runner
+50 silly mapToRegistry name loader-runner
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'loader-runner',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   escapedName: 'loader-runner',
+53 silly mapToRegistry   name: 'loader-runner',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/loader-runner
+55 silly fetchNamedPackageData react
+56 silly mapToRegistry name react
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'react',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'react',
+59 silly mapToRegistry   name: 'react',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/react
+61 silly fetchNamedPackageData react-bootstrap
+62 silly mapToRegistry name react-bootstrap
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'react-bootstrap',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'react-bootstrap',
+65 silly mapToRegistry   name: 'react-bootstrap',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/react-bootstrap
+67 silly fetchNamedPackageData react-dom
+68 silly mapToRegistry name react-dom
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'react-dom',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   escapedName: 'react-dom',
+71 silly mapToRegistry   name: 'react-dom',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+73 silly fetchNamedPackageData react-router-dom
+74 silly mapToRegistry name react-router-dom
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'react-router-dom',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'react-router-dom',
+77 silly mapToRegistry   name: 'react-router-dom',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+79 silly fetchNamedPackageData react-scripts
+80 silly mapToRegistry name react-scripts
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'react-scripts',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'react-scripts',
+83 silly mapToRegistry   name: 'react-scripts',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/react-scripts
+85 silly fetchNamedPackageData react-typist
+86 silly mapToRegistry name react-typist
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'react-typist',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'react-typist',
+89 silly mapToRegistry   name: 'react-typist',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/react-typist
+91 silly fetchNamedPackageData sass
+92 silly mapToRegistry name sass
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'sass',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   escapedName: 'sass',
+95 silly mapToRegistry   name: 'sass',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/sass
+97 silly fetchNamedPackageData sass-loader
+98 silly mapToRegistry name sass-loader
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'sass-loader',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   escapedName: 'sass-loader',
+101 silly mapToRegistry   name: 'sass-loader',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/sass-loader
+103 silly fetchNamedPackageData web-vitals
+104 silly mapToRegistry name web-vitals
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'web-vitals',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   escapedName: 'web-vitals',
+107 silly mapToRegistry   name: 'web-vitals',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/web-vitals
+109 silly fetchNamedPackageData webpack
+110 silly mapToRegistry name webpack
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'webpack',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   escapedName: 'webpack',
+113 silly mapToRegistry   name: 'webpack',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/webpack
+115 verbose request uri https://registry.npmjs.org/@testing-library%2fjest-dom
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 4:23:50 PM
+118 verbose request id e85645af113612be
+119 http request GET https://registry.npmjs.org/@testing-library%2fjest-dom
+120 verbose request uri https://registry.npmjs.org/@testing-library%2freact
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 4:23:50 PM
+123 http request GET https://registry.npmjs.org/@testing-library%2freact
+124 verbose request uri https://registry.npmjs.org/@testing-library%2fuser-event
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 4:23:50 PM
+127 http request GET https://registry.npmjs.org/@testing-library%2fuser-event
+128 verbose request uri https://registry.npmjs.org/bootstrap
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 4:23:50 PM
+131 http request GET https://registry.npmjs.org/bootstrap
+132 verbose request uri https://registry.npmjs.org/loader-runner
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 4:23:50 PM
+135 http request GET https://registry.npmjs.org/loader-runner
+136 verbose request uri https://registry.npmjs.org/react
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 4:23:50 PM
+139 http request GET https://registry.npmjs.org/react
+140 verbose request uri https://registry.npmjs.org/react-bootstrap
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 4:23:50 PM
+143 http request GET https://registry.npmjs.org/react-bootstrap
+144 verbose request uri https://registry.npmjs.org/react-dom
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 4:23:50 PM
+147 http request GET https://registry.npmjs.org/react-dom
+148 verbose request uri https://registry.npmjs.org/react-router-dom
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 4:23:50 PM
+151 http request GET https://registry.npmjs.org/react-router-dom
+152 verbose request uri https://registry.npmjs.org/react-scripts
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 4:23:50 PM
+155 http request GET https://registry.npmjs.org/react-scripts
+156 verbose request uri https://registry.npmjs.org/react-typist
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 4:23:50 PM
+159 http request GET https://registry.npmjs.org/react-typist
+160 verbose request uri https://registry.npmjs.org/sass
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 4:23:50 PM
+163 http request GET https://registry.npmjs.org/sass
+164 verbose request uri https://registry.npmjs.org/sass-loader
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 4:23:50 PM
+167 http request GET https://registry.npmjs.org/sass-loader
+168 verbose request uri https://registry.npmjs.org/web-vitals
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 4:23:50 PM
+171 http request GET https://registry.npmjs.org/web-vitals
+172 verbose request uri https://registry.npmjs.org/webpack
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 4:23:50 PM
+175 http request GET https://registry.npmjs.org/webpack
+176 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+177 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+178 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+179 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+180 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+181 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+182 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+183 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+184 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+185 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+186 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+187 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+188 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+189 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+190 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+191 info attempt registry request try #2 at 4:24:00 PM
+192 http request GET https://registry.npmjs.org/bootstrap
+193 info attempt registry request try #2 at 4:24:00 PM
+194 http request GET https://registry.npmjs.org/loader-runner
+195 info attempt registry request try #2 at 4:24:00 PM
+196 http request GET https://registry.npmjs.org/sass
+197 info attempt registry request try #2 at 4:24:00 PM
+198 http request GET https://registry.npmjs.org/@testing-library%2fjest-dom
+199 info attempt registry request try #2 at 4:24:00 PM
+200 http request GET https://registry.npmjs.org/sass-loader
+201 info attempt registry request try #2 at 4:24:00 PM
+202 http request GET https://registry.npmjs.org/react
+203 info attempt registry request try #2 at 4:24:00 PM
+204 http request GET https://registry.npmjs.org/react-dom
+205 info attempt registry request try #2 at 4:24:00 PM
+206 http request GET https://registry.npmjs.org/react-bootstrap
+207 info attempt registry request try #2 at 4:24:00 PM
+208 http request GET https://registry.npmjs.org/react-scripts
+209 info attempt registry request try #2 at 4:24:00 PM
+210 http request GET https://registry.npmjs.org/react-router-dom
+211 info attempt registry request try #2 at 4:24:00 PM
+212 http request GET https://registry.npmjs.org/@testing-library%2fuser-event
+213 info attempt registry request try #2 at 4:24:00 PM
+214 http request GET https://registry.npmjs.org/@testing-library%2freact
+215 info attempt registry request try #2 at 4:24:00 PM
+216 http request GET https://registry.npmjs.org/webpack
+217 info attempt registry request try #2 at 4:24:00 PM
+218 http request GET https://registry.npmjs.org/react-typist
+219 info attempt registry request try #2 at 4:24:00 PM
+220 http request GET https://registry.npmjs.org/web-vitals
+221 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+222 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+223 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+224 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+225 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+226 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+227 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+228 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+229 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+230 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+231 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+232 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+233 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+234 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+235 info retry will retry, error on last attempt: Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+236 info attempt registry request try #3 at 4:25:00 PM
+237 http request GET https://registry.npmjs.org/bootstrap
+238 info attempt registry request try #3 at 4:25:00 PM
+239 http request GET https://registry.npmjs.org/sass
+240 info attempt registry request try #3 at 4:25:00 PM
+241 http request GET https://registry.npmjs.org/loader-runner
+242 info attempt registry request try #3 at 4:25:00 PM
+243 http request GET https://registry.npmjs.org/react-dom
+244 info attempt registry request try #3 at 4:25:01 PM
+245 http request GET https://registry.npmjs.org/@testing-library%2fuser-event
+246 info attempt registry request try #3 at 4:25:01 PM
+247 http request GET https://registry.npmjs.org/@testing-library%2fjest-dom
+248 info attempt registry request try #3 at 4:25:01 PM
+249 http request GET https://registry.npmjs.org/react
+250 info attempt registry request try #3 at 4:25:01 PM
+251 http request GET https://registry.npmjs.org/react-scripts
+252 info attempt registry request try #3 at 4:25:01 PM
+253 http request GET https://registry.npmjs.org/react-router-dom
+254 info attempt registry request try #3 at 4:25:01 PM
+255 http request GET https://registry.npmjs.org/react-bootstrap
+256 info attempt registry request try #3 at 4:25:01 PM
+257 http request GET https://registry.npmjs.org/@testing-library%2freact
+258 info attempt registry request try #3 at 4:25:01 PM
+259 http request GET https://registry.npmjs.org/sass-loader
+260 info attempt registry request try #3 at 4:25:01 PM
+261 http request GET https://registry.npmjs.org/react-typist
+262 info attempt registry request try #3 at 4:25:01 PM
+263 http request GET https://registry.npmjs.org/webpack
+264 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+264 silly fetchPackageMetaData
+264 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+264 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+264 silly fetchPackageMetaData  error for loader-runner@^2.4.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+264 silly fetchPackageMetaData
+264 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+264 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+265 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+265 silly fetchPackageMetaData
+265 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+265 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+265 silly fetchPackageMetaData  error for bootstrap@^4.6.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+265 silly fetchPackageMetaData
+265 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+265 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+266 info attempt registry request try #3 at 4:25:01 PM
+267 http request GET https://registry.npmjs.org/web-vitals
+268 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+268 silly fetchPackageMetaData
+268 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+268 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+268 silly fetchPackageMetaData  error for sass@^1.35.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+268 silly fetchPackageMetaData
+268 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+268 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+269 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+269 silly fetchPackageMetaData
+269 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+269 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+269 silly fetchPackageMetaData  error for react@^17.0.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+269 silly fetchPackageMetaData
+269 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+269 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+270 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+270 silly fetchPackageMetaData
+270 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+270 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+270 silly fetchPackageMetaData  error for react-scripts@4.0.3 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+270 silly fetchPackageMetaData
+270 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+270 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+271 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+271 silly fetchPackageMetaData
+271 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+271 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+271 silly fetchPackageMetaData  error for react-dom@^17.0.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+271 silly fetchPackageMetaData
+271 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+271 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+272 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+272 silly fetchPackageMetaData
+272 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+272 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+272 silly fetchPackageMetaData  error for @testing-library/jest-dom@^5.12.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+272 silly fetchPackageMetaData
+272 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+272 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+273 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+273 silly fetchPackageMetaData
+273 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+273 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+273 silly fetchPackageMetaData  error for @testing-library/react@^11.2.7 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+273 silly fetchPackageMetaData
+273 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+273 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+274 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+274 silly fetchPackageMetaData
+274 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+274 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+274 silly fetchPackageMetaData  error for @testing-library/user-event@^12.8.3 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+274 silly fetchPackageMetaData
+274 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+274 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+275 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+275 silly fetchPackageMetaData
+275 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+275 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+275 silly fetchPackageMetaData  error for sass-loader@^10.2.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+275 silly fetchPackageMetaData
+275 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+275 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+276 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+276 silly fetchPackageMetaData
+276 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+276 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+276 silly fetchPackageMetaData  error for react-typist@^2.0.5 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+276 silly fetchPackageMetaData
+276 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+276 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+277 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+277 silly fetchPackageMetaData
+277 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+277 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+277 silly fetchPackageMetaData  error for webpack@^4.44.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+277 silly fetchPackageMetaData
+277 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+277 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+278 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+278 silly fetchPackageMetaData
+278 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+278 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+278 silly fetchPackageMetaData  error for react-bootstrap@^1.6.1 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+278 silly fetchPackageMetaData
+278 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+278 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+279 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+279 silly fetchPackageMetaData
+279 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+279 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+279 silly fetchPackageMetaData  error for react-router-dom@^5.2.0 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+279 silly fetchPackageMetaData
+279 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+279 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+280 silly fetchPackageMetaData Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+280 silly fetchPackageMetaData
+280 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+280 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14)
+280 silly fetchPackageMetaData  error for web-vitals@^1.1.2 { Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+280 silly fetchPackageMetaData
+280 silly fetchPackageMetaData     at exports._errnoException (util.js:1026:11)
+280 silly fetchPackageMetaData     at WriteWrap.afterWrite (net.js:799:14) code: 'EPROTO', errno: 'EPROTO', syscall: 'write' }
+281 silly rollbackFailedOptional Starting
+282 silly rollbackFailedOptional Finishing
+283 silly runTopLevelLifecycles Finishing
+284 silly install printInstalled
+285 verbose stack Error: write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+285 verbose stack
+285 verbose stack     at exports._errnoException (util.js:1026:11)
+285 verbose stack     at WriteWrap.afterWrite (net.js:799:14)
+286 verbose cwd C:\Users\chris\OneDrive\chris-filiatrault.github.io
+287 error Windows_NT 10.0.22000
+288 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+289 error node v6.9.0
+290 error npm  v3.10.8
+291 error code EPROTO
+292 error errno EPROTO
+293 error syscall write
+294 error write EPROTO 101057795:error:1408D07B:SSL routines:ssl3_get_key_exchange:bad signature:openssl\ssl\s3_clnt.c:2010:
+295 error If you need help, you may report this error at:
+295 error     <https://github.com/npm/npm/issues>
+296 verbose exit [ 1, true ]

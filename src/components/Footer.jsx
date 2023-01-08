@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Footer = (props) => {
-  const bgStyle = { backgroundColor: "#f5f5f5" };
+  const bgStyle = { backgroundColor: "#1b767c" };
 
   return (
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
@@ -15,7 +15,8 @@ const Footer = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
+                aria-label={`My ${icon.image.split("-")[1]}`
+              }
               >
                 <i className={`fab ${icon.image}  fa-3x socialicons`} />
               </a>

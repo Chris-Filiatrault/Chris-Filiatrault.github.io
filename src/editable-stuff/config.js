@@ -13,10 +13,6 @@ const mainBody = {
     {
       image: "fa-github",
       url: "https://github.com/Chris-Filiatrault",
-    },
-    {
-      image: "fa-medium",
-      url: "https://medium.com/@chris.filiatrault",
     }
   ],
 };
@@ -33,7 +29,7 @@ const about = {
 
 
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: ".NET", value: 70 },
