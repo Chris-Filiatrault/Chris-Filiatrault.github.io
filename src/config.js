@@ -27,40 +27,6 @@ const about = {
   message3: "I built this website to learn more about web development and showcase a few of my projects."
 };
 
-
-const skills = {
-  show: false,
-  heading: "Skills",
-  hardSkills: [
-    { name: ".NET", value: 70 },
-    { name: "HTML/CSS/JS", value: 80 },
-    { name: "React", value: 70 },
-    { name: "iOS Development", value: 85 },
-    { name: "Source Control", value: 80 },
-    { name: "OOP (Python, C#)", value: 70 },
-    { name: "MarkLogic (NoSQL)", value: 75 },
-    { name: "Statistics/Data Analysis", value: 80 },
-  ],
-  softSkills: [
-    { name: "Problem Solving", value: 85 },
-    { name: "Learning", value: 95 },
-    { name: "Critial Thinking", value: 90 },
-    { name: "Teamwork", value: 85 },
-    { name: "Communication", value: 90 },
-    { name: "Adaptability", value: 75 },
-    { name: "Time Management", value: 90 },
-    { name: "Emotional Awareness", value: 85 },
-  ],
-};
-
-
-const getInTouch = {
-  show: false,
-  heading: "Get In Touch",
-  message:
-    "I'm currently looking for Software Developer positions in .NET or front end. To arrange a conversation, please feel free to reach out on "
-};
-
 const projects = {
   show: true,
   heading: "Projects",
@@ -93,4 +59,4 @@ const projects = {
 }
 
 
-export { mainBody, about, skills, getInTouch, projects };
+export { mainBody, about, projects };

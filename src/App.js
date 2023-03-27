@@ -2,16 +2,12 @@ import React from "react";
 import {
   mainBody,
   about,
-  skills,
-  getInTouch,
   projects
-} from "./editable-stuff/config.js";
+} from "./config.js";
 import MainBody from "./components/MainBody";
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
-import Skills from "./components/Skills";
-import GetInTouch from "./components/GetInTouch.jsx";
 
 const App = React.forwardRef((props, ref) => {
   return (
@@ -36,23 +32,8 @@ const App = React.forwardRef((props, ref) => {
       {projects.show && (
         <Project/>
       )}
-      {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )}
        <Footer
-         icons={mainBody.icons}
-       >
-         {getInTouch.show && (
-          <GetInTouch
-            heading={getInTouch.heading}
-            message={getInTouch.message}
-            email={getInTouch.email}
-          />
-        )}
+         icons={mainBody.icons}>
       </Footer>
     </>
   );
