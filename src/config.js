@@ -32,15 +32,21 @@ const projects = {
   heading: "Projects",
   data: [
     {
+      name: "Price Checker",
+      description: "Azure Function for checking store prices and sending email alerts",
+      language: "C#",
+      link: "https://github.com/Chris-Filiatrault/PriceChecker"
+    },
+    {
       name: "Tax Calculator",
-      description: "A .NET application with a UI and API for calculating Tax.",
+      description: ".NET web application and API for calculating Tax.",
       languages: "C#",
       link: "https://github.com/Chris-Filiatrault/TaxCalculator"
     },
     {
       name: "Personal Website",
       description: "The source code for this website.",
-      languages: "HTML, SCSS, JavaScript, Bootstrap, React",
+      languages: "React, HTML, SCSS, JavaScript, Bootstrap",
       link: "https://github.com/Chris-Filiatrault/chris-filiatrault.github.io"
     },
     {
@@ -48,12 +54,6 @@ const projects = {
       description: "A shopping list app for iOS & MacOS.",
       languages: "Swift",
       link: "https://github.com/Chris-Filiatrault/iShop"
-    },
-    {
-      name: "Simple List",
-      description: "A single-page iOS list app.",
-      languages: "Swift",
-      link: "https://github.com/Chris-Filiatrault/Simple-List"
     }
   ]
 }
